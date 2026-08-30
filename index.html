@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felipe Alexander Ojeda Gómez - Portafolio Interactivo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="3600973.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">FO</div>
+            <ul class="nav-menu">
+                <li><a href="#sobre-mi" class="nav-link" data-key="nav_about">Sobre Mí</a></li>
+                <li><a href="#experiencia" class="nav-link" data-key="nav_exp">Experiencia</a></li>
+                <li><a href="#habilidades" class="nav-link" data-key="nav_skills">Habilidades</a></li>
+                <li><a href="#formacion" class="nav-link" data-key="nav_edu">Formación</a></li>
+                <li><a href="#otras-experiencias" class="nav-link" data-key="nav_other">Otras Experiencias</a></li>
+                <li><a href="#contacto" class="nav-link" data-key="nav_contact">Contacto</a></li>
+            </ul>
+            <div class="lang-switcher">
+                <button onclick="changeLanguage('es')" id="btn-es" class="lang-btn active">ES</button>
+                <button onclick="changeLanguage('en')" id="btn-en" class="lang-btn">EN</button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="header">
+        <div class="profile-img-container">
+            <!-- FOTO: guarda una foto de perfil como "img/foto.jpg" dentro de la carpeta img.
+                 Recomendado: cuadrada, mínimo 400x400 px. Hasta entonces la imagen se verá vacía. -->
+            <img src="img/foto.jpg" alt="Felipe Alexander Ojeda Gómez" class="profile-img">
+        </div>
+        <div class="header-info">
+            <h1>FELIPE ALEXANDER<br>OJEDA GÓMEZ</h1>
+            <h2 data-key="header_subtitle">ESTUDIANTE DE INGENIERÍA CIVIL INDUSTRIAL</h2>
+            <div class="contact-badges">
+                <span class="contact-badge"><i class="fas fa-envelope"></i> felipe.ojeda.gomez@outlook.com</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <section id="sobre-mi">
+            <h3 data-key="about_title">Sobre Mí</h3>
+            <p data-key="about_text">Estudiante de penúltimo año de Ingeniería Civil Industrial con formación integral en gestión de procesos, evaluación de proyectos y análisis de datos. Cuento con experiencia práctica en el sector público en fomento productivo y formulación de proyectos, complementada con habilidades pedagógicas como ayudante universitario. Poseo formación en metodologías ágiles (Scrum), herramientas de productividad e integración de TICs, todo complementado por mi adaptabilidad y proactividad en entornos cambiantes y mi enfoque en la colaboración con equipos multidisciplinarios.</p>
+            <a href="curriculum_felipe_ojeda_es.pdf" id="cv-link" download class="download-btn">
+                <i class="fas fa-download"></i> <span data-key="btn_cv">Descargar CV en PDF</span>
+            </a>
+        </section>
+
+        <section id="experiencia">
+            <h3 data-key="exp_title">Experiencia Laboral</h3>
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-header">
+                        <span class="timeline-company">Universidad de La Frontera</span>
+                        <span class="timeline-date" data-key="date_exp1">Mar 2026 - Actual</span>
+                    </div>
+                    <div class="timeline-role" data-key="exp_role1">Ayudante de Formulación y Evaluación de Proyectos</div>
+                    <ul>
+                        <li data-key="exp_desc1">Desarrollo de talleres, análisis de datos operativos y creación de material didáctico.</li>
+                    </ul>
+                    <a href="exp-ufro-proyectos.html" class="cert-link mt-2"><i class="fas fa-info-circle"></i> <span data-key="btn_more_info">Más información</span></a>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-header">
+                        <span class="timeline-company">I. Municipalidad de Río Negro</span>
+                        <span class="timeline-date" data-key="date_exp2">Ene 2026 - Mar 2026</span>
+                    </div>
+                    <div class="timeline-role" data-key="exp_role2">Práctica de estudios</div>
+                    <ul>
+                        <li data-key="exp_desc2">Asesoría en postulación a fondos concursables y coordinación operativa de eventos comunales.</li>
+                    </ul>
+                    <a href="exp-municipalidad.html" class="cert-link mt-2"><i class="fas fa-info-circle"></i> <span data-key="btn_more_info">Más información</span></a>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-header">
+                        <span class="timeline-company">Universidad de La Frontera</span>
+                        <span class="timeline-date" data-key="date_exp3">Ago 2023 - Jul 2024</span>
+                    </div>
+                    <div class="timeline-role" data-key="exp_role3">Ayudante de Taller de Análisis de Datos</div>
+                    <ul>
+                        <li data-key="exp_desc3">Diseño de material didáctico y guías de apoyo para el análisis operacional de datos.</li>
+                    </ul>
+                    <a href="exp-ufro-datos.html" class="cert-link mt-2"><i class="fas fa-info-circle"></i> <span data-key="btn_more_info">Más información</span></a>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-header">
+                        <span class="timeline-company">Sector Privado, Río Negro</span>
+                        <span class="timeline-date" data-key="date_exp4">2021 - 2023</span>
+                    </div>
+                    <div class="timeline-role" data-key="exp_role4">Trabajo Agrícola de Temporada y Comercio Local</div>
+                    <ul>
+                        <li data-key="exp_desc4">Manejo de cultivos, atención al público, reposición de productos y manejo de caja.</li>
+                    </ul>
+                    <a href="exp-agricola.html" class="cert-link mt-2"><i class="fas fa-info-circle"></i> <span data-key="btn_more_info">Más información</span></a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="habilidades">
+            <h3 data-key="skills_title">Habilidades Técnicas y Herramientas</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-gears"></i>
+                    <span data-key="skill1">Gestión de Procesos</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <span data-key="skill2">Análisis de Datos</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-chart-line"></i>
+                    <span data-key="skill3">Formulación y Evaluación de Proyectos</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-people-group"></i>
+                    <span data-key="skill4">Metodologías Ágiles (Scrum)</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <span data-key="skill5">Programación (Python, Java)</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-file-excel"></i>
+                    <span data-key="skill6">Microsoft Excel (Intermedio)</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-cloud"></i>
+                    <span data-key="skill7">Google Workspace</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-robot"></i>
+                    <span data-key="skill8">Herramientas de IA y TICs</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="idiomas">
+            <h3 data-key="lang_title">Idiomas</h3>
+            <div class="languages">
+                <div class="lang-item">
+                    <div class="lang-name" data-key="lang_es">Español</div>
+                    <div class="lang-bar-bg"><div class="lang-bar-fill" data-width="100%"></div></div>
+                    <div class="lang-level" data-key="lang_level_native">Nivel Nativo</div>
+                </div>
+                <div class="lang-item">
+                    <div class="lang-name" data-key="lang_en">Inglés</div>
+                    <div class="lang-bar-bg"><div class="lang-bar-fill" data-width="55%"></div></div>
+                    <div class="lang-level" data-key="lang_level_med">Nivel Medio (B1)</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="formacion">
+            <h3 data-key="edu_title">Datos Académicos</h3>
+            <div class="academic-grid">
+                <!-- CERTIFICADOS: para añadir un certificado, crea una carpeta "certificados",
+                     guarda ahí el PDF o imagen y descomenta una línea como esta dentro del bloque:
+                     <a href="certificados/nombre_archivo.pdf" target="_blank" class="cert-link"><i class="fas fa-external-link-alt"></i> <span data-key="btn_cert">Ver Certificado</span></a> -->
+
+                <div class="academic-item">
+                    <strong>Universidad de La Frontera</strong>
+                    <span data-key="edu_degree_industrial">Ingeniería Civil Industrial</span>
+                    <span data-key="status_current">(En curso, desde Dic 2023)</span>
+                </div>
+
+                <div class="academic-item">
+                    <strong>Universidad de La Frontera</strong>
+                    <span data-key="edu_minor">Minor en Análisis de Datos</span>
+                    <span data-key="status_current_minor">(En curso, desde Mar 2024)</span>
+                </div>
+
+                <div class="academic-item">
+                    <strong>Santander Open Academy</strong>
+                    <span data-key="edu_santander">Excel Básico a Intermedio (2024 - 2025)</span>
+                </div>
+
+                <div class="academic-item">
+                    <strong>MIT &amp; Google</strong>
+                    <span data-key="edu_ia">Introducción a la IA Generativa (MIT) · Google IA y Productividad (2024 - 2025)</span>
+                </div>
+
+                <div class="academic-item">
+                    <strong>SERCOTEC</strong>
+                    <span data-key="edu_sercotec">Metodologías Ágiles: Scrum para MiPEs (2024 - 2025)</span>
+                </div>
+
+                <div class="academic-item">
+                    <strong>Universidad de La Frontera</strong>
+                    <span data-key="edu_gestion">Procesos Internos y Entorno de la Empresa · Gestión de Personas · Planificación de Negocios</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="otras-experiencias">
+            <h3 data-key="other_title">Otras Experiencias</h3>
+            <div class="other-exp-grid">
+                <div class="other-exp-card">
+                    <h4 data-key="other_t1">Equidad de Género</h4>
+                    <p data-key="other_desc1">Curso de Monitor de Equidad de Género (15 horas), Alumni UFRO.</p>
+                </div>
+                <div class="other-exp-card">
+                    <h4 data-key="other_t2">Emprendimiento y Empleabilidad</h4>
+                    <p data-key="other_desc2">Escuela de Venta para Emprendedores y talleres de empleabilidad organizados por Alumni UFRO.</p>
+                </div>
+                <div class="other-exp-card">
+                    <h4 data-key="other_t3">Innovación por el Agua</h4>
+                    <p data-key="other_desc3">Participación en la charla de innovación hídrica de AGUA365, sobre soluciones sostenibles al desafío del agua.</p>
+                </div>
+                <div class="other-exp-card">
+                    <h4 data-key="other_t4">Voluntariado y Vida Universitaria</h4>
+                    <p data-key="other_desc4">Programa PAAU "Aprobando Ando" (DDE), voluntariado de reparación de bicicletas en Campamento Suyai y UFRO Bike, y Campeonato Intercarreras de Vóleibol Mixto.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h3 data-key="contact_title">Contacto</h3>
+            <div class="contact-form">
+                <!-- FORMULARIO: crea una cuenta gratuita en https://formspree.io con el correo de Felipe,
+                     copia el código del formulario y reemplaza TU_CODIGO_AQUI en la línea de abajo.
+                     Mientras tanto el formulario mostrará un mensaje de error al enviarse. -->
+                <form id="contactForm" action="https://formspree.io/f/TU_CODIGO_AQUI" method="POST">
+                    <input type="text" id="name" name="name" placeholder="Tu nombre" data-placeholder-key="contact_name_ph" required>
+                    <input type="email" id="email" name="email" placeholder="Tu email" data-placeholder-key="contact_email_ph" required>
+                    <textarea id="message" name="message" placeholder="Tu mensaje" data-placeholder-key="contact_msg_ph" required></textarea>
+                    <button type="submit" data-key="contact_btn">Enviar Mensaje</button>
+                    <p id="form-status" style="display:none; text-align:center; margin-top:10px; color:var(--accent-color); font-weight:500;"></p>
+                </form>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="social-icons">
+            <!-- LINKEDIN: reemplaza la almohadilla por la URL del perfil de LinkedIn de Felipe y descomenta.
+            <a href="https://www.linkedin.com/in/USUARIO" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+            -->
+            <a href="mailto:felipe.ojeda.gomez@outlook.com"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p>&copy; <span id="year"></span> Felipe Alexander Ojeda Gómez. <span data-key="footer_rights">Todos los derechos reservados.</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

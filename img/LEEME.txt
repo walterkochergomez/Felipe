@@ -1,0 +1,10 @@
+Guarda aquí la foto de perfil con el nombre exacto:  foto.jpg
+
+Recomendaciones:
+- Imagen cuadrada (misma altura que ancho), mínimo 400 x 400 píxeles.
+- Formato .jpg. Si usas .png, cambia también la línea del <img> en index.html.
+- La foto se recorta en círculo automáticamente.
+
+En esta carpeta también van las imágenes de las páginas de detalle
+(exp-ufro-proyectos.html, exp-municipalidad.html, etc.). En cada una
+hay un bloque de galería comentado listo para activar.
