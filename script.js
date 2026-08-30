@@ -326,7 +326,7 @@ if (contactForm) {
 // como "curriculum_felipe_ojeda_en.pdf" y actualiza la línea "en" de abajo.
 const cvFiles = {
     es: "curriculum_felipe_ojeda_es.pdf",
-    en: "curriculum_felipe_ojeda_es.pdf"
+    en: "curriculum_felipe_ojeda_en.pdf"
 };
 
 function changeLanguage(lang) {
