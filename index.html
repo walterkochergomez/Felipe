@@ -51,7 +51,7 @@
         </div>
     </header>
 
-    <div class="container">
+   <div class="container">
 
         <section id="sobre-mi">
             <h3 data-key="about_title">Sobre Mí</h3>
@@ -177,8 +177,8 @@
         <section id="formacion">
             <h3 data-key="edu_title">Datos Académicos</h3>
             <div class="academic-grid">
-                <!-- CERTIFICADOS: para añadir un certificado, crea una carpeta "certificados",
-                     guarda ahí el PDF o imagen y descomenta una línea como esta dentro del bloque:
+                <!-- CERTIFICADOS: los archivos están en la carpeta "certificados", con nombres
+                     descriptivos. Para añadir uno nuevo, guarda el PDF ahí y copia una línea como:
                      <a href="certificados/nombre_archivo.pdf" target="_blank" class="cert-link"><i class="fas fa-external-link-alt"></i> <span data-key="btn_cert">Ver Certificado</span></a> -->
 
                 <div class="academic-item">
@@ -194,23 +194,42 @@
                 </div>
 
                 <div class="academic-item">
-                    <strong>Santander Open Academy</strong>
-                    <span data-key="edu_santander">Excel Básico a Intermedio (2024 - 2025)</span>
-                </div>
-
-                <div class="academic-item">
-                    <strong>MIT &amp; Google</strong>
-                    <span data-key="edu_ia">Introducción a la IA Generativa (MIT) · Google IA y Productividad (2024 - 2025)</span>
-                </div>
-
-                <div class="academic-item">
                     <strong>SERCOTEC</strong>
-                    <span data-key="edu_sercotec">Metodologías Ágiles: Scrum para MiPEs (2024 - 2025)</span>
+                    <span data-key="edu_sercotec">Gestión y Metodologías Empresariales (2025)</span>
+                    <div class="cert-links-group">
+                        <a href="certificados/sercotec_scrum_mipes.pdf" target="_blank" class="cert-link"><i class="fas fa-external-link-alt"></i> <span data-key="cert_scrum">Scrum para MiPEs</span></a>
+                        <a href="certificados/sercotec_procesos_internos.pdf" target="_blank" class="cert-link"><i class="fas fa-external-link-alt"></i> <span data-key="cert_procesos">Procesos Internos</span></a>
+                        <a href="certificados/sercotec_gestion_personas.pdf" target="_blank" class="cert-link"><i class="fas fa-external-link-alt"></i> <span data-key="cert_personas">Gestión de Personas</span></a>
+                        <a href="certificados/sercotec_planificar_negocio.pdf" target="_blank" class="cert-link"><i class="fas fa-external-link-alt"></i> <span data-key="cert_planificar">Planificación de Negocios</span></a>
+                        <a href="certificados/sercotec_tics_gestion_empresarial.pdf" target="_blank" class="cert-link"><i class="fas fa-external-link-alt"></i> <span data-key="cert_tics">Integración de TICs</span></a>
+                    </div>
                 </div>
 
                 <div class="academic-item">
-                    <strong>Universidad de La Frontera</strong>
-                    <span data-key="edu_gestion">Procesos Internos y Entorno de la Empresa · Gestión de Personas · Planificación de Negocios</span>
+                    <strong>Universitat Autònoma de Barcelona</strong>
+                    <span data-key="edu_coursera">Competencias Digitales: Herramientas de Ofimática · Coursera, 50 hrs (2025)</span>
+                    <a href="certificados/coursera_uab_ofimatica.pdf" target="_blank" class="cert-link"><i class="fas fa-external-link-alt"></i> <span data-key="btn_cert">Ver Certificado</span></a>
+                </div>
+
+                <div class="academic-item">
+                    <strong>Santander Open Academy</strong>
+                    <span data-key="edu_santander">Excel Básico a Intermedio · 8 hrs (2024)</span>
+                    <a href="certificados/santander_excel.pdf" target="_blank" class="cert-link"><i class="fas fa-external-link-alt"></i> <span data-key="btn_cert">Ver Certificado</span></a>
+                </div>
+
+                <div class="academic-item">
+                    <strong>Google</strong>
+                    <span data-key="edu_google">Inteligencia Artificial y Productividad (2024)</span>
+                    <a href="certificados/google_ia_productividad.pdf" target="_blank" class="cert-link"><i class="fas fa-external-link-alt"></i> <span data-key="btn_cert">Ver Certificado</span></a>
+                </div>
+
+                <div class="academic-item">
+                    <strong>MIT</strong>
+                    <span data-key="edu_mit">Introducción a la IA Generativa (2024 - 2025)</span>
+                    <!-- Falta el certificado de este curso. Cuando lo tengas, guárdalo en la carpeta
+                         "certificados" y descomenta la línea de abajo, ajustando el nombre del archivo.
+                    <a href="certificados/mit_ia_generativa.pdf" target="_blank" class="cert-link"><i class="fas fa-external-link-alt"></i> <span data-key="btn_cert">Ver Certificado</span></a>
+                    -->
                 </div>
             </div>
         </section>
@@ -219,16 +238,26 @@
             <h3 data-key="other_title">Otras Experiencias</h3>
             <div class="other-exp-grid">
                 <div class="other-exp-card">
+                    <h4 data-key="other_t2">Escuela de Venta para Emprendedores</h4>
+                    <p data-key="other_desc2">Curso del Centro de Negocios SERCOTEC Villarrica, operado por la Universidad de La Frontera (Nov 2024).</p>
+                    <a href="certificados/sercotec_escuela_venta_emprendedores.pdf" target="_blank" class="cert-link mt-2"><i class="fas fa-external-link-alt"></i> <span data-key="btn_cert">Ver Certificado</span></a>
+                </div>
+                <div class="other-exp-card">
+                    <h4 data-key="other_t5">Prepárate para tu Futuro Profesional</h4>
+                    <p data-key="other_desc5">Programa de empleabilidad de Alumni UFRO (18 horas): comunicación efectiva, liderazgo, gestión del tiempo, marca personal y preparación de entrevistas.</p>
+                    <a href="certificados/alumni_ufro_empleabilidad.pdf" target="_blank" class="cert-link mt-2"><i class="fas fa-external-link-alt"></i> <span data-key="btn_cert">Ver Certificado</span></a>
+                </div>
+                <div class="other-exp-card">
+                    <h4 data-key="other_t3">AQUA365: Innovación por el Agua</h4>
+                    <p data-key="other_desc3">Ciclo de charlas organizado por la Facultad de Ciencias Físicas y Matemáticas de la Universidad de Chile e Ingeniería Sin Fronteras Chile (2025).</p>
+                    <a href="certificados/aqua365_innovacion_agua.pdf" target="_blank" class="cert-link mt-2"><i class="fas fa-external-link-alt"></i> <span data-key="btn_cert">Ver Certificado</span></a>
+                </div>
+                <div class="other-exp-card">
                     <h4 data-key="other_t1">Equidad de Género</h4>
                     <p data-key="other_desc1">Curso de Monitor de Equidad de Género (15 horas), Alumni UFRO.</p>
-                </div>
-                <div class="other-exp-card">
-                    <h4 data-key="other_t2">Emprendimiento y Empleabilidad</h4>
-                    <p data-key="other_desc2">Escuela de Venta para Emprendedores y talleres de empleabilidad organizados por Alumni UFRO.</p>
-                </div>
-                <div class="other-exp-card">
-                    <h4 data-key="other_t3">Innovación por el Agua</h4>
-                    <p data-key="other_desc3">Participación en la charla de innovación hídrica de AGUA365, sobre soluciones sostenibles al desafío del agua.</p>
+                    <!-- Falta el certificado de este curso. Al agregarlo, descomenta:
+                    <a href="certificados/alumni_ufro_equidad_genero.pdf" target="_blank" class="cert-link mt-2"><i class="fas fa-external-link-alt"></i> <span data-key="btn_cert">Ver Certificado</span></a>
+                    -->
                 </div>
                 <div class="other-exp-card">
                     <h4 data-key="other_t4">Voluntariado y Vida Universitaria</h4>
