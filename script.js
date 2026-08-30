@@ -73,10 +73,10 @@ const translations = {
     es: {
         // --- FECHAS DE EXPERIENCIA ---
         // CAMBIAR AQUÍ: si una actividad finaliza, reemplaza "Actual" por el mes de término (ej. "Dic 2026")
-        "date_exp1": "Mar 2026 - Actual",
+        "date_exp1": "Mar 2026 - Jul 2026",
         "date_exp2": "Ene 2026 - Mar 2026",
-        "date_exp3": "Ago 2023 - Jul 2024",
-        "date_exp4": "2021 - 2023",
+        "date_exp3": "Ago 2026 - Dic 2026",
+        "date_exp4": "2019 - 2025",
 
         // --- NAVEGACIÓN ---
         "nav_about": "Sobre Mí",
@@ -97,7 +97,7 @@ const translations = {
         "exp_title": "Experiencia Laboral",
         "exp_role1": "Ayudante de Formulación y Evaluación de Proyectos",
         "exp_desc1": "Desarrollo de talleres, análisis de datos operativos y creación de material didáctico.",
-        "exp_role2": "Práctica de estudios",
+        "exp_role2": "Práctica Profesional - Área de Fomento Productivo",
         "exp_desc2": "Asesoría en postulación a fondos concursables y coordinación operativa de eventos comunales.",
         "exp_role3": "Ayudante de Taller de Análisis de Datos",
         "exp_desc3": "Diseño de material didáctico y guías de apoyo para el análisis operacional de datos.",
@@ -110,7 +110,7 @@ const translations = {
         "skill2": "Análisis de Datos",
         "skill3": "Formulación y Evaluación de Proyectos",
         "skill4": "Metodologías Ágiles (Scrum)",
-        "skill5": "Programación (Python, Java)",
+        "skill5": "Programación (Python)",
         "skill6": "Microsoft Excel (Intermedio)",
         "skill7": "Google Workspace",
         "skill8": "Herramientas de IA y TICs",
@@ -125,7 +125,7 @@ const translations = {
         // --- FORMACIÓN ---
         "edu_title": "Datos Académicos",
         "edu_degree_industrial": "Ingeniería Civil Industrial",
-        "status_current": "(En curso, desde Dic 2023)",
+        "status_current": "(En curso, desde Marzo 2022)",
         "edu_minor": "Minor en Análisis de Datos",
         "status_current_minor": "(En curso, desde Mar 2024)",
         "edu_sercotec": "Gestión y Metodologías Empresariales (2025)",
@@ -171,27 +171,27 @@ const translations = {
 
         "ufro_proy_title": "Ayudantía: Formulación y Evaluación de Proyectos",
         "ufro_proy_subtitle": "Talleres, análisis de datos operativos y material didáctico",
-        "ufro_proy_detail_text": "La formulación y evaluación de proyectos es el puente entre una idea y una decisión de inversión fundamentada: permite anticipar riesgos y ordenar los criterios antes de comprometer recursos. Como ayudante de la sección práctica de esta asignatura, mi rol es acompañar a los equipos de estudiantes en ese recorrido completo. Diseño y conduzco talleres donde los alumnos estructuran proyectos desde el estudio de mercado hasta la evaluación económica, y trabajo con datos operativos para construir los casos y verificar la consistencia de los supuestos que ellos plantean. Además, elaboro material didáctico y guías de apoyo que traducen la metodología a un lenguaje aplicable a problemas reales. Esta experiencia ha fortalecido mi capacidad para explicar conceptos técnicos con claridad, evaluar propuestas con criterio y sostener el trabajo pedagógico de forma constante junto al equipo docente.",
+        "ufro_proy_detail_text": "Apoyo en la sección práctica de la asignatura mediante el diseño y conducción de talleres sobre formulación de proyectos. Apoyo a los estudiantes en el análisis de datos operativos para estudios de mercado y evaluación económica básica, además de la elaboración de guías de ejercicios prácticos.",
 
-        "muni_title": "Práctica: I. Municipalidad de Río Negro",
-        "muni_subtitle": "Fomento productivo, fondos concursables y gestión de eventos",
-        "muni_detail_text": "El fomento productivo municipal es donde la gestión pública se encuentra directamente con el emprendedor: de la calidad de esa asesoría depende que un proyecto local acceda o no a financiamiento. Durante mi práctica en la Ilustre Municipalidad de Río Negro asesoré a emprendedores y productores de la comuna en la formulación y postulación a fondos concursables, ayudándoles a ordenar su propuesta, justificar la inversión y cumplir con los requisitos formales de cada convocatoria. En paralelo asumí tareas de gestión logística y coordinación operativa en festivales y eventos comunales, además de la tramitación de permisos institucionales, lo que implicó articular plazos, proveedores y distintas unidades municipales. La experiencia me dio una visión concreta del funcionamiento del sector público, de la importancia de la trazabilidad administrativa y de cómo la planificación operativa determina el resultado final de una actividad con la comunidad.",
+        "muni_title": "Práctica Profesional: I. Municipalidad de Río Negro",
+        "muni_subtitle": "Área de Fomento Productivo",
+        "muni_detail_text": "Asesoría a emprendedores y productores locales en la formulación y postulación a fondos concursables, apoyando en la revisión de requisitos y carpetas de presentación. Apoyo en la gestión logística, permisos institucionales y coordinación operativa de eventos y festivales comunales.",
 
         "ufro_datos_title": "Ayudantía: Taller de Análisis de Datos",
         "ufro_datos_subtitle": "Material didáctico y guías para el análisis operacional",
-        "ufro_datos_detail_text": "El análisis de datos deja de ser un ejercicio abstracto cuando se aplica a la operación real de una empresa: procesos, tiempos, inventarios y demanda. Como ayudante de este taller fui responsable del diseño y desarrollo del material didáctico y de las guías de apoyo práctico que los estudiantes utilizaron para el análisis operacional de datos. Ese trabajo consistió en construir ejercicios progresivos, preparar conjuntos de datos representativos y documentar los procedimientos paso a paso, de modo que cada alumno pudiera reproducir el análisis y entender el porqué de cada decisión metodológica. Preparar este material me obligó a dominar la materia con un nivel de detalle mayor al de un estudiante regular y consolidó mi manejo de herramientas de análisis, además de mi capacidad para estructurar contenido técnico de forma clara y ordenada.",
+        "ufro_datos_detail_text": "Desarrollo de material didáctico y guías de apoyo práctico para el análisis operacional de datos. Elaboración de ejercicios paso a paso y preparación de conjuntos de datos para el trabajo de los estudiantes en clases.",
 
         "agricola_title": "Trabajo Agrícola de Temporada y Comercio Local",
         "agricola_subtitle": "Labores de campo y atención al público en Río Negro",
-        "agricola_detail_text": "Antes y durante mis primeros años universitarios trabajé en labores agrícolas de temporada y en comercio local en Río Negro. En el ámbito agrícola participé en el manejo de cultivos y en el trabajo colaborativo propio de las faenas de campo, donde el ritmo lo marcan la temporada y la coordinación del equipo. En el comercio local me desempeñé en atención al público, reposición de productos y manejo básico de caja, con responsabilidad directa sobre el trato al cliente y el cuadre diario. Aunque no es una experiencia de ingeniería, fue la que me formó en disciplina operativa, puntualidad y trabajo en equipo bajo presión, y es el origen de mi interés por entender cómo se organizan los procesos productivos desde el terreno hacia arriba."
+        "agricola_detail_text": "Apoyo en labores agrícolas de campo en manejo de cultivos y trabajo en equipo de temporada. En el comercio local, desempeño en atención al cliente, reposición de productos y manejo básico de caja."
     },
 
     en: {
         // --- EXPERIENCE DATES ---
-        "date_exp1": "Mar 2026 - Present",
+        "date_exp1": "Mar 2026 - Jul 2026",
         "date_exp2": "Jan 2026 - Mar 2026",
-        "date_exp3": "Aug 2023 - Jul 2024",
-        "date_exp4": "2021 - 2023",
+        "date_exp3": "Aug 2026 - Dec 2026",
+        "date_exp4": "2019 - 2025",
 
         // --- NAVIGATION ---
         "nav_about": "About Me",
@@ -212,7 +212,7 @@ const translations = {
         "exp_title": "Work Experience",
         "exp_role1": "Teaching Assistant, Project Formulation and Appraisal",
         "exp_desc1": "Running workshops, analysing operational data and creating teaching materials.",
-        "exp_role2": "Internship",
+        "exp_role2": "Professional Internship - Productive Development Unit",
         "exp_desc2": "Advising on applications to public funding programmes and operational coordination of municipal events.",
         "exp_role3": "Teaching Assistant, Data Analysis Workshop",
         "exp_desc3": "Design of teaching materials and practical guides for operational data analysis.",
@@ -225,7 +225,7 @@ const translations = {
         "skill2": "Data Analysis",
         "skill3": "Project Formulation and Appraisal",
         "skill4": "Agile Methodologies (Scrum)",
-        "skill5": "Programming (Python, Java)",
+        "skill5": "Programming (Python)",
         "skill6": "Microsoft Excel (Intermediate)",
         "skill7": "Google Workspace",
         "skill8": "AI and ICT Tools",
@@ -240,7 +240,7 @@ const translations = {
         // --- EDUCATION ---
         "edu_title": "Education",
         "edu_degree_industrial": "Industrial Engineering",
-        "status_current": "(In progress, since Dec 2023)",
+        "status_current": "(In progress, since March 2022)",
         "edu_minor": "Minor in Data Analysis",
         "status_current_minor": "(In progress, since Mar 2024)",
         "edu_sercotec": "Business Management and Methodologies (2025)",
@@ -286,19 +286,19 @@ const translations = {
 
         "ufro_proy_title": "Teaching Assistant: Project Formulation and Appraisal",
         "ufro_proy_subtitle": "Workshops, operational data analysis and teaching materials",
-        "ufro_proy_detail_text": "Project formulation and appraisal is the bridge between an idea and a well-founded investment decision: it makes it possible to anticipate risk and set out the criteria before committing resources. As teaching assistant for the practical section of this course, my role is to guide student teams through that entire process. I design and run workshops in which students structure projects from market study through to economic appraisal, and I work with operational data to build the cases and check that the assumptions they put forward hold together. I also produce teaching materials and support guides that translate the methodology into language that applies to real problems. This experience has strengthened my ability to explain technical concepts clearly, assess proposals on their merits, and sustain steady pedagogical work alongside the teaching staff.",
+        "ufro_proy_detail_text": "Support for the practical section of the course through the design and delivery of workshops on project formulation. Support for students in the analysis of operational data for market studies and basic economic appraisal, along with the preparation of practical exercise guides.",
 
-        "muni_title": "Internship: Municipality of Río Negro",
-        "muni_subtitle": "Productive development, public funding and event management",
-        "muni_detail_text": "Municipal productive development is where public administration meets the entrepreneur directly: the quality of that advice determines whether a local project secures funding or not. During my internship at the Municipality of Río Negro I advised entrepreneurs and local producers on formulating and submitting applications to public funding programmes, helping them structure the proposal, justify the investment and meet the formal requirements of each call. In parallel I took on logistics and operational coordination for municipal festivals and events, along with processing institutional permits, which meant reconciling deadlines, suppliers and several municipal units. The experience gave me a concrete understanding of how the public sector works, of the importance of administrative traceability, and of how operational planning shapes the final outcome of an activity with the community.",
+        "muni_title": "Professional Internship: Municipality of Río Negro",
+        "muni_subtitle": "Productive Development Unit",
+        "muni_detail_text": "Advisory support for local entrepreneurs and producers on formulating and submitting applications to public funding programs, assisting with the review of requirements and application dossiers. Support in logistics management, institutional permits and operational coordination of municipal events and festivals.",
 
         "ufro_datos_title": "Teaching Assistant: Data Analysis Workshop",
         "ufro_datos_subtitle": "Teaching materials and guides for operational analysis",
-        "ufro_datos_detail_text": "Data analysis stops being an abstract exercise once it is applied to a company's real operations: processes, cycle times, inventory and demand. As teaching assistant for this workshop I was responsible for designing and developing the teaching materials and practical support guides students used for operational data analysis. That work meant building exercises of increasing difficulty, preparing representative datasets and documenting procedures step by step, so that each student could reproduce the analysis and understand the reasoning behind every methodological decision. Preparing this material required me to master the subject in more detail than a regular student and consolidated both my command of analysis tools and my ability to structure technical content clearly.",
+        "ufro_datos_detail_text": "Development of teaching materials and practical support guides for operational data analysis. Preparation of step-by-step exercises and datasets for students to work with in class.",
 
         "agricola_title": "Seasonal Agricultural Work and Local Retail",
         "agricola_subtitle": "Fieldwork and customer service in Río Negro",
-        "agricola_detail_text": "Before and during my first years at university I worked in seasonal agricultural jobs and local retail in Río Negro. In the agricultural work I took part in crop handling and the collaborative fieldwork the season demands, where the pace is set by the harvest and by team coordination. In local retail I worked in customer service, stock replenishment and basic cash handling, with direct responsibility for how customers were treated and for balancing the till each day. It is not an engineering role, but it is where I learned operational discipline, punctuality and teamwork under pressure, and it is the origin of my interest in understanding how productive processes are organised from the ground up."
+        "agricola_detail_text": "Support in agricultural fieldwork involving crop handling and seasonal teamwork. In local retail, work in customer service, stock replenishment and basic cash handling."
     }
 };
 
