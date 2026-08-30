@@ -322,8 +322,6 @@ if (contactForm) {
 }
 
 // Archivos de CV correspondientes a cada idioma
-// CAMBIAR AQUÍ: cuando exista una versión en inglés del CV, guárdala en la carpeta
-// como "curriculum_felipe_ojeda_en.pdf" y actualiza la línea "en" de abajo.
 const cvFiles = {
     es: "curriculum_felipe_ojeda_es.pdf",
     en: "curriculum_felipe_ojeda_en.pdf"
